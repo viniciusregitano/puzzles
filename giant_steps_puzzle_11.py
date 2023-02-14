@@ -6,7 +6,6 @@ Created on Mon Feb 13 14:16:45 2023
 """
 from numba import njit
 import numpy as np
-from datetime import datetime
 
 @njit
 def egg_dropping_fill_matrix(n_floors, n_eggs):
